@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Martii – Dev &amp; traduction</title>
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:title" content="Martii – Dev &amp; traduction">
+    <meta property="og:description" content="Bienvenue sur mon site ! Vous pourrez y trouver mes différents projets de développement ou de traduction.">
+    <meta name="description" content="Bienvenue sur mon site ! Vous pourrez y trouver mes différents projets de développement ou de traduction.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:description" content="Bienvenue sur mon site ! Vous pourrez y trouver mes différents projets de développement ou de traduction.">
+    <meta name="twitter:title" content="Martii – Dev &amp; traduction">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/apple-touch-icon.png?h=30db00692ac9fdfa2638b97b247c338b">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?h=5ebd26089e1b35aea8c6e70780fa4ac0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?h=41da3cefd4556e994ca79a30d34d92c9">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/apple-touch-icon.png?h=30db00692ac9fdfa2638b97b247c338b">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png?h=5984bb462fa0576c9a91e13d6302db83">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png?h=16259c9b250c7626e96e0bdd81c9fa71">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=225965efdd6f39bc350d4b77c8ccedc2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-all.min.css?h=c2cd6f3f03048985338d131849447f65">
+    <link rel="stylesheet" href="/assets/css/styles.css?h=82f08675d79e46746e416de4df6b4539">
+    <link rel="stylesheet" href="/assets/css/dark.css?h=1fbff6238d89357cd6b86d2fb1e7d24c">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white transparency border-bottom border-secondary homeNavbar" id="transmenu" style="padding-top: 0px;">
+        <div class="container"><a class="navbar-brand text-success" href="/index.html"><i class="fas fa-cat fa-2x"></i>&nbsp;<span style="font-size: 25px;line-height: 20px;font-family: Aldrich, sans-serif;">Martii</span></a><button data-bs-toggle="collapse" class="navbar-toggler collapsed" data-bs-target="#navcol" style="margin-top: 13px;margin-right: 0;"><span></span><span></span><span></span></button>
+            <div class="collapse navbar-collapse homePageNav" id="navcol">
+                <ul class="navbar-nav font-monospace ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/index.html"><i class="fas fa-home"></i>&nbsp;<span lang-fr="Accueil" lang-en="Home">Accueil</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/dev.html"><i class="fas fa-laptop-code"></i>&nbsp;<span lang-fr="Développement" lang-en="Development">Développement</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/trad.html"><i class="fas fa-language"></i>&nbsp;<span lang-fr="Traduction" lang-en="Translation">Traduction</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact.html"><i class="fas fa-mail-bulk"></i>&nbsp;<span lang-fr="Contact" lang-en="Contact">Contact</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" id="lightBtn" onclick="localStorage.setItem(&quot;theme&quot;, &quot;dark&quot;); theme(&quot;dark&quot;);" style="cursor: pointer;display: none;"><i class="fas fa-moon"></i><span class="d-lg-none" lang-fr="&amp;nbsp;Mode sombre" lang-en="&amp;nbsp;Dark mode">&nbsp;Mode clair</span></a><a class="nav-link active" id="darkBtn" onclick="localStorage.setItem(&quot;theme&quot;, &quot;light&quot;); theme(&quot;light&quot;);" style="cursor: pointer;"><i class="fas fa-sun"></i><span class="d-lg-none" lang-fr="&amp;nbsp;Mode clair" lang-en="&amp;nbsp;Light mode">&nbsp;Mode sombre</span></a></li>
+                    <li class="nav-item d-lg-none">
+                        <div style="margin-right: -111px;"><a onclick="setLang(&quot;fr&quot;);" style="cursor: pointer;padding-right: 5px;"><img src="/assets/img/france-flag.png?h=e5324c3fa950d9481ae6cc301bee5e05" style="width: 25px;"></a><a onclick="setLang(&quot;en&quot;);" style="cursor: pointer;padding-left: 5px;padding-right: 5px;"><img src="/assets/img/great-britain-flag.png?h=e16d93367708689f5ef8f300690b001c" style="width: 25px;"></a></div>
+                    </li>
+                    <li class="nav-item d-none d-lg-inline-block"><a class="nav-link active" onclick="setLang(&quot;fr&quot;);" style="cursor: pointer;"><img src="/assets/img/france-flag.png?h=e5324c3fa950d9481ae6cc301bee5e05" style="width: 25px;"></a></li>
+                    <li class="nav-item d-none d-lg-inline-block"><a class="nav-link active" onclick="setLang(&quot;en&quot;);" style="cursor: pointer;"><img src="/assets/img/great-britain-flag.png?h=e16d93367708689f5ef8f300690b001c" style="width: 25px;"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="homePage" class="bg-success d-flex align-items-center" style="height: 100vh;">
+        <div class="text-center w-100 text-white">
+            <h1 style="font-family: Aldrich, sans-serif;">Martii</h1>
+            <h2 class="fw-normal" style="font-size: 25px;" lang-fr="Passionné d'informatique et de langues" lang-en="IT and foreign language enthusiast"><em>Passionné d'informatique et de langues</em></h2>
+        </div>
+        <p class="font-monospace text-center text-light" style="bottom: 0;position: fixed;width:100%;" lang-fr="© 2021 Edgar Caudron | Site temporaire" lang-en="© 2021 Edgar Caudron | Temporary website">© 2021 Edgar Caudron | Site temporaire</p>
+    </main>
+    <script src="/assets/js/jquery.min.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
+    <script src="/assets/js/projets.js?h=0d883cbc962bc605935918f6a47ea6b8"></script>
+    <script src="/assets/js/main.js?h=26563464a755974fc46bae3ea9bf87dd"></script>
+</body>
+
+</html>
